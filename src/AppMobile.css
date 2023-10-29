@@ -1,0 +1,89 @@
+@media only screen and (max-width: 768px) {
+  .App {
+    background-color: black;
+    background-image: none;
+  }
+
+  .logo {
+    padding-top: 5vw;
+    padding-left: 11vw;
+    width: 40vw;
+  }
+
+  .sign-in-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vw;
+  }
+
+  .form {
+    border-radius: 5px;
+    padding: 5vw 15rem;
+    display: grid;
+    flex-direction: column;
+  }
+
+  .form-header {
+    margin-bottom: 5vw;
+  }
+
+  .email-box,
+  .password-box {
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 64 64 / var(--tw-bg-opacity));
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15vw;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+    .App {
+      background-color: black;
+      background-image: none;
+    }
+  
+    .logo {
+      padding-top: 5vw;
+      padding-left: 11vw;
+      width: 43vw;
+    }
+  
+    .sign-in-section {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 10vw;
+    }
+  
+    .form {
+      border-radius: 5px;
+      padding: 5vw 15rem;
+      display: grid;
+      flex-direction: column;
+    }
+  
+    .form-header {
+      margin-bottom: 5vw;
+    }
+  
+    .email-box,
+    .password-box {
+      outline-width: 0;
+      height: 40px;
+      margin-bottom: 14px;
+      --tw-bg-opacity: 1;
+      background-color: rgb(64 64 64 / var(--tw-bg-opacity));
+      border-radius: 5px;
+      border: none;
+      padding: 5px 15vw;
+      color: white;
+      font-size: 16px;
+    }
+  }
